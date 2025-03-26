@@ -1,6 +1,6 @@
 <div align="center">
 
-# oxocarbon-<app-name>
+# oxocarbon-micro
 
 </div>
 
@@ -17,25 +17,19 @@ Oxocarbon is a set of community ports of IBM's carbon color palette and design p
 
 ## Showcase
 
-<screenshots>
+![oxocarbon-micro](https://github.com/user-attachments/assets/a5529eb1-e361-4f3f-aa17-c2888fe89155)
+
 
 ## Install
 
-- Installation
-
-## Features (optional)
-
-- Special features and UI tweaks
-
-### Plugin Support (optional)
-
-- What plugins does it support
-
-## FAQ (optional)
-
-- Q: **_"Where can I find the doc?"_**\
- A: Run `:help theme`
-
+- Clone this repository
+- Run `mkdir -p ~/.config/micro/colorschemes`
+- Then, making sure you are in the directory of this repo, run `cp oxocarbon-dark.micro ~/.config/micro/colorschemes/`
+- Afterwards, run `micro` to open a blank file
+- Press Ctrl + E to open the command bar
+- Type `set colorscheme oxocarbon-dark` and press Enter.
+- Congrats, you should now have it installed! Run a compositor for transparency!
+  
 ## License
 
 The project is licensed under the MIT license
